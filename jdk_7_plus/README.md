@@ -4,9 +4,9 @@ This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for 
 
 The following extra components and configurations has been applied to the TomEE server in these images to make it `production ready`:
   * Unecessary files(.exe, .bat, etc.) and default applications(like host manager) has been removed to reduce image size
-  * `APR` support, version `1.5.2`
-  * `TC Native` support, version `1.2.12`
-  * `Openssl`, version `1.0.2k`
+  * `APR` support, version `1.6.3`
+  * `TC Native` support, version `1.2.16`
+  * `Openssl`, version `1.0.2n`
   * `SSL` enabled at port 8443 with a `self-signed` certificate located at `${CATALINA_HOME}/ssl`
   * `Tomcat cluster` support and been enabled by default
   * For more details, please reference to the [setenv.sh](https://github.com/sgr-io/docker-tomee/blob/master/server_jre_8_unlimited_plus/files/bin/setenv.sh) file and [server.xml](https://github.com/sgr-io/docker-tomee/blob/master/server_jre_8_unlimited_plus/files/conf/server.xml) file.
@@ -20,9 +20,7 @@ The following extra components and configurations has been applied to the TomEE 
 
 * TomEE Plus 7 (Current version, not yet JavaEE 7 certificated)
   * Java 8
-    * `server_jre_8_unlimited_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Server Runtime Environment 8` and `JCE` patched
     * `server_jre_8_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Server Runtime Environment 8`
-    * `jdk_8_unlimited_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Development Kit 8` and `JCE` patched
     * `jdk_8_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Development Kit 8`
   * Java 7
     * `server_jre_7_unlimited_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
@@ -30,11 +28,19 @@ The following extra components and configurations has been applied to the TomEE 
     * `jdk_7_unlimited_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Development Kit 7` and `JCE` patched
     * `jdk_7_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Development Kit 7`
 
-* TomEE Plus v1.7.4 (JavaEE 6 certificated, might be the last v1.x)
+* TomEE Plus v1.7.5 JavaEE 6 certificated, might be the last v1.x)
   * Java 8
-    * `server_jre_8_unlimited_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Server Runtime Environment 8` and `JCE` patched
+    * `server_jre_8_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 8`
+    * `jdk_8_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 8`
+  * Java 7
+    * `server_jre_7_unlimited_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
+    * `server_jre_7_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7`
+    * `jdk_7_unlimited_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7` and `JCE` patched
+    * `jdk_7_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7`
+
+* TomEE Plus v1.7.4 JavaEE 6 certificated)
+  * Java 8
     * `server_jre_8_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Server Runtime Environment 8`
-    * `jdk_8_unlimited_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Development Kit 8` and `JCE` patched
     * `jdk_8_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Development Kit 8`
   * Java 7
     * `server_jre_7_unlimited_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
