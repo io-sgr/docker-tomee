@@ -15,38 +15,28 @@ The following extra components and configurations has been applied to the TomEE 
 
 `sgrio/tomee` provides several tagged images:
 
-* Default (Your best choice)
-  * `latest`: pointed to `server_jre_8_unlimited_plus_v7.0.3`
+#### Default (Your best choice)
+  * `latest`: pointed to `plus_v7_server_jre_8`
 
-* TomEE Plus 7 (Current version, not yet JavaEE 7 certificated)
+#### TomEE Plus v7 (Current version, not yet JavaEE 7 certificated)
   * Java 8
-    * `server_jre_8_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Server Runtime Environment 8`
-    * `jdk_8_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Development Kit 8`
+    * `plus_v7_server_jre_8`: Tomcat EE version `7.0.4` with `Oracle Java SE Server Runtime Environment 8`
+    * `plus_v7_jdk_8`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 8`
   * Java 7
-    * `server_jre_7_unlimited_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
-    * `server_jre_7_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Server Runtime Environment 7`
-    * `jdk_7_unlimited_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Development Kit 7` and `JCE` patched
-    * `jdk_7_plus_v7.0.3`: Tomcat EE version `7.0.3` with `Oracle Java SE Development Kit 7`
+    * `plus_v7_server_jre_7_unlimited`: Tomcat EE version `7.0.4` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
+    * `plus_v7_server_jre_7`: Tomcat EE version `7.0.4` with `Oracle Java SE Server Runtime Environment 7`
+    * `plus_v7_jdk_7_unlimited`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 7` and `JCE` patched
+    * `plus_v7_jdk_7`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 7`
 
-* TomEE Plus v1.7.5 JavaEE 6 certificated, might be the last v1.x)
+#### TomEE Plus v1 (JavaEE 6 certificated, might be the last v1.x)
   * Java 8
-    * `server_jre_8_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 8`
-    * `jdk_8_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 8`
+    * `plus_v1_server_jre_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 8`
+    * `plus_v1_jdk_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 8`
   * Java 7
-    * `server_jre_7_unlimited_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
-    * `server_jre_7_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7`
-    * `jdk_7_unlimited_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7` and `JCE` patched
-    * `jdk_7_plus_v1.7.5`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7`
-
-* TomEE Plus v1.7.4 JavaEE 6 certificated)
-  * Java 8
-    * `server_jre_8_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Server Runtime Environment 8`
-    * `jdk_8_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Development Kit 8`
-  * Java 7
-    * `server_jre_7_unlimited_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
-    * `server_jre_7_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Server Runtime Environment 7`
-    * `jdk_7_unlimited_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Development Kit 7` and `JCE` patched
-    * `jdk_7_plus_v1.7.4`: Tomcat EE version `1.7.4` with `Oracle Java SE Development Kit 7`
+    * `plus_v1_server_jre_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
+    * `plus_v1_server_jre_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7`
+    * `plus_v1_jdk_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7` and `JCE` patched
+    * `plus_v1_jdk_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7`
 
 ### Installation
 
