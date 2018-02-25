@@ -28,7 +28,7 @@ The following extra components and configurations has been applied to the TomEE 
     * `plus_v7_jdk_7_unlimited`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 7` and `JCE` patched
     * `plus_v7_jdk_7`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 7`
 
-#### TomEE Plus v1 (JavaEE 6 certificated, might be the last v1.x)
+#### TomEE Plus v1 (JavaEE 6 certificated)
   * Java 8
     * `plus_v1_server_jre_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 8`
     * `plus_v1_jdk_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 8`
