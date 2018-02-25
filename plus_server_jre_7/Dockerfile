@@ -24,6 +24,7 @@ RUN curl --silent --location --retry 3 \
 		${CATALINA_HOME}/temp/* \
 		${CATALINA_HOME}/webapps/* \
 		${CATALINA_HOME}/work/* && \
+	ln -s ${CATALINA_HOME} /opt/apache-tomee && \
 	apt-get update && apt-get install \
 	        gcc \
 		libc6-dev \
