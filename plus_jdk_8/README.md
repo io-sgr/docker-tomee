@@ -5,38 +5,34 @@ This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for 
 The following extra components and configurations has been applied to the TomEE server in these images to make it `production ready`:
   * Unecessary files(.exe, .bat, etc.) and default applications(like host manager) has been removed to reduce image size
   * `APR` support, version `1.6.3`
-  * `TC Native` support, version `1.2.16`
-  * `Openssl`, version `1.0.2n`
-  * `SSL` enabled at port 8443 with a `self-signed` certificate located at `${CATALINA_HOME}/ssl`
-  * `Tomcat cluster` support and been enabled by default
-  * For more details, please reference to the [setenv.sh](https://github.com/sgr-io/docker-tomee/blob/master/server_jre_8_unlimited_plus/files/bin/setenv.sh) file and [server.xml](https://github.com/sgr-io/docker-tomee/blob/master/server_jre_8_unlimited_plus/files/conf/server.xml) file.
+  * `TC Native` support, version `1.2.17`
 
 ### Docker Tags
 
 `sgrio/tomee` provides several tagged images:
 
 #### Default (Your best choice)
-  * `latest`: pointed to `plus_v7_server_jre_8`
+  * [![](https://images.microbadger.com/badges/image/sgrio/tomee.svg)](https://microbadger.com/images/sgrio/tomee) `latest`: pointed to `plus_v7_server_jre_8`
 
 #### TomEE Plus v7 (Current version, not yet JavaEE 7 certificated)
   * Java 8
-    * `plus_v7_server_jre_8`: Tomcat EE version `7.0.4` with `Oracle Java SE Server Runtime Environment 8`
-    * `plus_v7_jdk_8`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 8`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_server_jre_8.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_server_jre_8) `plus_v7_server_jre_8`: Tomcat EE version `7.0.4` with `Oracle Java SE Server Runtime Environment 8`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_jdk_8.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_jdk_8) `plus_v7_jdk_8`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 8`
   * Java 7
-    * `plus_v7_server_jre_7_unlimited`: Tomcat EE version `7.0.4` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
-    * `plus_v7_server_jre_7`: Tomcat EE version `7.0.4` with `Oracle Java SE Server Runtime Environment 7`
-    * `plus_v7_jdk_7_unlimited`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 7` and `JCE` patched
-    * `plus_v7_jdk_7`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 7`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_server_jre_7_unlimited.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_server_jre_7_unlimited) `plus_v7_server_jre_7_unlimited`: Tomcat EE version `7.0.4` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_server_jre_7.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_server_jre_7) `plus_v7_server_jre_7`: Tomcat EE version `7.0.4` with `Oracle Java SE Server Runtime Environment 7`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_jdk_7_unlimited.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_jdk_7_unlimited) `plus_v7_jdk_7_unlimited`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 7` and `JCE` patched
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_jdk_7.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_jdk_7) `plus_v7_jdk_7`: Tomcat EE version `7.0.4` with `Oracle Java SE Development Kit 7`
 
 #### TomEE Plus v1 (JavaEE 6 certificated)
   * Java 8
-    * `plus_v1_server_jre_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 8`
-    * `plus_v1_jdk_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 8`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_server_jre_8.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_server_jre_8) `plus_v1_server_jre_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 8`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_jdk_8.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_jdk_8) `plus_v1_jdk_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 8`
   * Java 7
-    * `plus_v1_server_jre_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
-    * `plus_v1_server_jre_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7`
-    * `plus_v1_jdk_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7` and `JCE` patched
-    * `plus_v1_jdk_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_server_jre_7_unlimited.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_server_jre_7_unlimited) `plus_v1_server_jre_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_server_jre_7.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_server_jre_7) `plus_v1_server_jre_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_jdk_7_unlimited.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_jdk_7_unlimited) `plus_v1_jdk_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7` and `JCE` patched
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_jdk_7.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_jdk_7) `plus_v1_jdk_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7`
 
 ### Installation
 
@@ -46,7 +42,7 @@ The following extra components and configurations has been applied to the TomEE 
 
 ### Usage
 
-    docker run -d -p 8080:8080 -p 8443:8443 -v /path/to/webapp:/opt/apache-tomee-${TOMEE_VERSION} sgrio/tomee
+    docker run -d -p 8080:8080 -v /path/to/webapp:/opt/apache-tomee/webapp sgrio/tomee
 
 ### Advanced
 
