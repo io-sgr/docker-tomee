@@ -12,27 +12,27 @@ The following extra components and configurations has been applied to the TomEE 
 `sgrio/tomee` provides several tagged images:
 
 #### Default (Your best choice)
-  * `latest`: pointed to `plus_v7_server_jre_8`
+  * [![](https://images.microbadger.com/badges/image/sgrio/tomee.svg)](https://microbadger.com/images/sgrio/tomee) `latest`: pointed to `plus_v7_server_jre_8`
 
 #### TomEE Plus v7 (Current version, not yet JavaEE 7 certificated)
   * Java 8
-    * `plus_v7_server_jre_8`: Tomcat EE version `7.0.5` with `Oracle Java SE Server Runtime Environment 8`
-    * `plus_v7_jdk_8`: Tomcat EE version `7.0.5` with `Oracle Java SE Development Kit 8`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_server_jre_8.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_server_jre_8) `plus_v7_server_jre_8`: Tomcat EE version `7.0.5` with `Oracle Java SE Server Runtime Environment 8`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_jdk_8.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_jdk_8) `plus_v7_jdk_8`: Tomcat EE version `7.0.5` with `Oracle Java SE Development Kit 8`
   * Java 7
-    * `plus_v7_server_jre_7_unlimited`: Tomcat EE version `7.0.5` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
-    * `plus_v7_server_jre_7`: Tomcat EE version `7.0.5` with `Oracle Java SE Server Runtime Environment 7`
-    * `plus_v7_jdk_7_unlimited`: Tomcat EE version `7.0.5` with `Oracle Java SE Development Kit 7` and `JCE` patched
-    * `plus_v7_jdk_7`: Tomcat EE version `7.0.5` with `Oracle Java SE Development Kit 7`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_server_jre_7_unlimited.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_server_jre_7_unlimited) `plus_v7_server_jre_7_unlimited`: Tomcat EE version `7.0.5` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_server_jre_7.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_server_jre_7) `plus_v7_server_jre_7`: Tomcat EE version `7.0.5` with `Oracle Java SE Server Runtime Environment 7`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_jdk_7_unlimited.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_jdk_7_unlimited) `plus_v7_jdk_7_unlimited`: Tomcat EE version `7.0.5` with `Oracle Java SE Development Kit 7` and `JCE` patched
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v7_jdk_7.svg)](https://microbadger.com/images/sgrio/tomee:plus_v7_jdk_7) `plus_v7_jdk_7`: Tomcat EE version `7.0.5` with `Oracle Java SE Development Kit 7`
 
 #### TomEE Plus v1 (JavaEE 6 certificated)
   * Java 8
-    * `plus_v1_server_jre_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 8`
-    * `plus_v1_jdk_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 8`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_server_jre_8.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_server_jre_8) `plus_v1_server_jre_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 8`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_jdk_8.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_jdk_8) `plus_v1_jdk_8`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 8`
   * Java 7
-    * `plus_v1_server_jre_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
-    * `plus_v1_server_jre_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7`
-    * `plus_v1_jdk_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7` and `JCE` patched
-    * `plus_v1_jdk_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_server_jre_7_unlimited.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_server_jre_7_unlimited) `plus_v1_server_jre_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7` and `JCE` patched
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_server_jre_7.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_server_jre_7) `plus_v1_server_jre_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Server Runtime Environment 7`
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_jdk_7_unlimited.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_jdk_7_unlimited) `plus_v1_jdk_7_unlimited`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7` and `JCE` patched
+    * [![](https://images.microbadger.com/badges/image/sgrio/tomee:plus_v1_jdk_7.svg)](https://microbadger.com/images/sgrio/tomee:plus_v1_jdk_7) `plus_v1_jdk_7`: Tomcat EE version `1.7.5` with `Oracle Java SE Development Kit 7`
 
 ### Installation
 
