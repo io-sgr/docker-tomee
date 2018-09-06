@@ -2,10 +2,10 @@ FROM sgrio/java-oracle:server_jre_7_unlimited
 MAINTAINER SgrAlpha <admin@mail.sgr.io>
 
 ENV DEBIAN_FRONTEND=noninteractive \
-    CATALINA_HOME=/opt/apache-tomee \
-    PATH="${CATALINA_HOME}/bin:$PATH"
+    CATALINA_HOME="/opt/apache-tomee" \
+    PATH="/opt/apache-tomee/bin:$PATH"
 
-RUN TOMEE_VERSION=7.0.4 && \
+RUN TOMEE_VERSION=7.0.5 && \
     APR_VERSION=1.6.3 && \
     TC_NATIVE_VERSION=1.2.17 && \
     curl --silent --location --retry 3 \
